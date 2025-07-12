@@ -22,13 +22,13 @@ Supports basic `SET`, `GET`, `DEL` commands over a raw **TCP protocol**, with op
 
 ## Architecture Overview
 
-Client (telnet/nc/custom)
-        ↓
-Async TCP Server (Tokio)
-        ↓
-Command Parser → Command Enum
-        ↓
-In-Memory DB <----> WAL
+Client (telnet/nc/custom)\
+        ↓\
+Async TCP Server (Tokio)\
+        ↓\
+Command Parser → Command Enum\
+        ↓\
+In-Memory DB <----> WAL\
         ↓
 Response Sent Back
 
@@ -36,12 +36,12 @@ Response Sent Back
 
 ## Commands
 
-SET name Darren
-GET name
-DEL name
+SET name Darren\
+GET name\
+DEL name\
 
-SET temp 42 EX 5 # key expires in 5 seconds
-GET temp # after 5 seconds → (nil)
+SET temp 42 EX 5 # key expires in 5 seconds\
+GET temp # after 5 seconds → (nil)\
 
 ---
 
