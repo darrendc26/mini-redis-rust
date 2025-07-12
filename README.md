@@ -41,7 +41,7 @@ GET name\
 DEL name
 
 SET temp 42 EX 5 # key expires in 5 seconds\
-GET temp # after 5 seconds → (nil)\
+GET temp # after 5 seconds → (nil)
 
 ---
 
