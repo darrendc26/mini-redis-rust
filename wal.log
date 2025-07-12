@@ -1,0 +1,9 @@
+{"SET":{"key":"name","value":"Darren","expires_in":null}}
+{"SET":{"key":"name","value":"darren","expires_in":5}}
+{"SET":{"key":"name","value":"rrr","expires_in":null}}
+{"SET":{"key":"m","value":"ddd","expires_in":4}}
+{"DEL":{"key":"name"}}
+{"SET":{"key":"name","value":"dar","expires_in":null}}
+{"SET":{"key":"name","value":"dar","expires_in":3}}
+{"SET":{"key":"name","value":"trew","expires_in":null}}
+{"DEL":{"key":"name"}}
