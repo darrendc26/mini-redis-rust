@@ -29,7 +29,7 @@ Async TCP Server (Tokio)\
 Command Parser → Command Enum\
         ↓\
 In-Memory DB <----> WAL\
-        ↓
+        ↓\
 Response Sent Back
 
 ---
@@ -38,7 +38,7 @@ Response Sent Back
 
 SET name Darren\
 GET name\
-DEL name\
+DEL name
 
 SET temp 42 EX 5 # key expires in 5 seconds\
 GET temp # after 5 seconds → (nil)\
